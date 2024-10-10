@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply border-2 border-cyan-600 border-dashed hover:bg-blue-300;
+  }
+}
